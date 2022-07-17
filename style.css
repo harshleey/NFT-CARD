@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    /* height: 90vh; */
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 400px;
+    width: 90%;
+    margin: 50px auto;
+    background: hsl(216, 50%, 16%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/*=======================
+        IMAGES             
+=======================*/
+.nft-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*=======================
+        TYPOGRAPHY      
+=======================*/
+
+h1 {
+    font-size: 1.6rem;
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+h1:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+/*=======================
+        NFT             
+=======================*/
+
+.nft-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 20px;
+    width: 340px;
+    /* border: 1px solid red; */
+}
+
+.nft-eth,
+.nft-clock {
+    max-width: 150px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nft-eth > img,
+.nft-clock > img {
+    margin-right: 5px;
+}
+
+.nft-eth {
+    color: hsl(178, 100%, 50%);
+}
+
+/*=======================
+        CREATOR           
+=======================*/
+.creator {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.creator-img {
+    max-width: 14%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+.creator > p {
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.white-text {
+    color:hsl(0, 0%, 100%);
+}
+
+.white-text:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+/* .container {
+    width: 1000px;
+    height: auto;
+    border: 2px solid white;
+    background: hsl(216, 50%, 16%);
+    margin: 250px;
+}
+
+.ethereum {
+    max-width: 25%;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.2;
+    font-size: 18px;
+} */
